@@ -1,46 +1,123 @@
-# Getting Started with Create React App
+# Herra - IVF Support & Management App
+
+A comprehensive web application designed specifically for women undergoing IVF treatment. Herra bridges the communication gap between patients and fertility clinics by providing intelligent appointment and medication management, emotional wellbeing tracking, and personalized medication education.
+
+## ✨ Features
+
+- **Personalized Dashboard** - Dynamic greeting and daily overview for Kate
+- **Integrated Calendar** - Color-coded appointments, medications, and milestones
+- **Daily Wellbeing Journal** - Mood tracking with emotional state logging
+- **Medication Guide** - Comprehensive database with detailed medication information
+- **Profile & Settings** - Complete user profile management with privacy controls
+- **Modern UI Design** - Clean, empathetic interface with light blue theme
+- **Female Symbol Branding** - Professional logo representing women's health
+
+## 🚀 Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Prerequisites
 
-In the project directory, you can run:
+- Node.js (v14 or higher)
+- npm or yarn
 
-### `npm start`
+### Installation
 
-Runs the app in the development mode.\
+1. Clone the repository
+```bash
+git clone https://github.com/juliajbarden/first-app.git
+cd first-app
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Start the development server
+```bash
+npm start
+```
+
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 📱 Available Scripts
+
+### `npm start`
+Runs the app in development mode. The page will reload if you make edits.
 
 ### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in interactive watch mode.
 
 ### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Builds the app for production to the `build` folder with optimized performance.
 
 ### `npm run eject`
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🛠️ Tech Stack
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **React** - Frontend framework
+- **TypeScript** - Type safety and better development experience
+- **React Router** - Client-side routing
+- **Date-fns** - Date manipulation and formatting
+- **CSS3** - Modern styling with CSS custom properties
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 🎯 Target Audience
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- **Primary**: Women aged 25-45 actively undergoing IVF treatment
+- **Secondary**: Partners/support persons involved in the IVF journey
+- **Tertiary**: Fertility clinics and reproductive endocrinologists
 
-## Learn More
+## 🏥 Core Functionality
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Smart Notification System
+- Personalized notifications for appointments and medications
+- Customizable timing and quiet hours
+- Emergency contact integration
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Integrated Calendar System
+- Medical appointment optimization
+- Color-coded entries for different appointment types
+- Medication schedule overlay
+- Treatment phase visualization
+
+### Daily Wellbeing Journal
+- Emotional state tracking (1-10 scales)
+- Physical symptom logging with IVF-specific options
+- Medication side effect tracking
+- Free-text journal entries
+
+### Personalized Medication Guide
+- Comprehensive IVF medication database
+- Step-by-step administration instructions
+- Storage requirements and handling
+- Side effects and interaction warnings
+
+## 🔒 Privacy & Security
+
+- HIPAA compliance ready
+- End-to-end encryption for health data
+- Granular privacy settings
+- Complete data control for users
+
+## 🎨 Design Philosophy
+
+- **Empathetic Design** - Acknowledging the emotional difficulty of IVF
+- **Clarity over Cleverness** - Medical information must be unambiguous
+- **Gentle Interactions** - Soft colors and encouraging micro-interactions
+- **Accessibility First** - Support for users experiencing emotional distress
+
+## 🤝 Contributing
+
+This project was generated with Claude Code as a comprehensive IVF support platform. 
+
+## 📄 License
+
+This project contains confidential and proprietary information. Distribution limited to authorized personnel only.
+
+---
+
+**Built with ❤️ for women on their fertility journey**
+
+🤖 *Generated with [Claude Code](https://claude.ai/code)*
